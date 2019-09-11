@@ -13,10 +13,8 @@ Now download the program and a fitting config version for your modpack:
 
 ```shell
 wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/fusioncrafter.lua
-wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/<VERSION>-config.lua
+wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/<VERSION>-config.lua config.lua
 ```
-
-Rename the downloaded config file to `config.lua`.
 
 Tweak the inventories which interface with the transposer in the config and start `fusioncrafter.lua`.
 
@@ -95,13 +93,7 @@ You'll also need a config file which contains all the crafting recipes and confi
 > Replace `<VERSION>` with the version you want. You can see all the versions by browsing the files in the repository.
 
 ```shell
-wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/<VERSION>-config.lua
-```
-
-Rename the file to `config.lua`:
-
-```shell
-mv <VERSION>-config.lua config.lua
+wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/<VERSION>-config.lua config.lua
 ```
 
 Depending on which version you downloaded, you only need the change the sides for the **Transposer** and you're done.
