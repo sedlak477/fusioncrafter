@@ -113,7 +113,7 @@ config.recipes = {
       ["draconicevolution:draconium_dust"] = 4,
       ["draconicevolution:draconium_ingot"] = 2,
       ["minecraft:blaze_powder"] = 2,
-      ["minecraft:obsidian"] = 1,
+      ["minecraft:obsidian"] = 1
     },
     core = "minecraft:obsidian"
   },
