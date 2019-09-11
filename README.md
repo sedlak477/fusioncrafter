@@ -1,11 +1,11 @@
 # FusionCrafter
-FusionCrafter is a OpenComputers program for Draconic Evolution Fusion Crafting automation!
+FusionCrafter is a [OpenComputers](https://www.curseforge.com/minecraft/mc-mods/opencomputers) program for [Draconic Evolution](https://www.curseforge.com/minecraft/mc-mods/draconic-evolution) Fusion Crafting automation!
 
 # Quick start
 
 Set up a **Transposer** with five inventories connected to it and set up some pipes as follows:
 
-* One piping items from one chest into the *Crafting Injectors*.
+* One piping items from one chest into the *Crafting Injectors* (Make sure your injectors are in **Single Item Mode**).
 * One piping items from another chest into the *Fusion Crafting Core*.
 * One piping items from the *Fusion Crafting Core* into another unused chest.
 
