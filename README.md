@@ -1,12 +1,24 @@
 # FusionCrafter
 FusionCrafter is a [OpenComputers](https://www.curseforge.com/minecraft/mc-mods/opencomputers) program for [Draconic Evolution](https://www.curseforge.com/minecraft/mc-mods/draconic-evolution) Fusion Crafting automation!
 
-# Minimum requirements
+# Requirements
+
+## Minimum
 
 * Computer Case (Tier 1)
 * Screen (Tier 1)
 * CPU (Tier 1)
-* 2x Memory (Tier 1)
+* 2x Memory (Tier 1.5) (Max 10 recipes)
+* Graphics Card (Tier 1)
+* Hard Drive (Tier 1)
+* EEPROM (Lua BIOS)
+
+## Recommended
+
+* Computer Case (Tier 2)
+* Screen (Tier 1)
+* CPU (Tier 1)
+* 2x Memory (Tier 2.5) (Max 30 recipes)
 * Graphics Card (Tier 1)
 * Hard Drive (Tier 1)
 * EEPROM (Lua BIOS)
@@ -30,7 +42,7 @@ Tweak the inventories which interface with the transposer in the config and star
 
 > You can add `fusioncrafter.lua` to the autostart so you don't have to start it everytime you reboot.
 
-Done! Happy crafting!
+Done, Happy crafting!
 
 # Tutorial
 
@@ -149,7 +161,7 @@ Currently the is only version but contributions are always welcome! :smile:
 
 # Troubleshooting
 
-Q: I'm getting `not enough memory` error, what to do?  
+Q: I'm getting `not enough memory` or `Out of memory` errors, what to do?  
 A: Add more memory to your computer.
 
 
