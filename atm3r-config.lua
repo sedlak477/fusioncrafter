@@ -323,17 +323,6 @@ config.recipes = {
       ["botania:manaresource"] = 1
     },
     core = "forestry:royal_jelly"
-  },
-  {
-    output = { ["forestry:bee_queen_ge"] = 1 },  -- Energy queen
-    input = {
-      ["rustic:bee"] = 1,
-      ["atmtweaks:item_material"] = 2,
-      ["techreborn:part"] = 2,
-      ["thermalfoundation:material"] = 2,
-      ["nuclearcraft:electromagnet_supercooler_idle"] = 1
-    },
-    core = "rustic:bee"
   }
 }
 
