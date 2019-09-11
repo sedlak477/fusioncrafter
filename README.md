@@ -1,6 +1,16 @@
 # FusionCrafter
 FusionCrafter is a [OpenComputers](https://www.curseforge.com/minecraft/mc-mods/opencomputers) program for [Draconic Evolution](https://www.curseforge.com/minecraft/mc-mods/draconic-evolution) Fusion Crafting automation!
 
+# Minimum requirements
+
+* Computer Case (Tier 1)
+* Screen (Tier 1)
+* CPU (Tier 1)
+* 2x Memory (Tier 1)
+* Graphics Card (Tier 1)
+* Hard Drive (Tier 1)
+* EEPROM (Lua BIOS)
+
 # Quick start
 
 Set up a **Transposer** with five inventories connected to it and set up some pipes as follows:
@@ -29,7 +39,7 @@ You'll need the following things:
 * Computer (any tier)  - This will be the computer managing the crafting
   * CPU or APU (any tier)
   * Graphics Card (any tier, only if you are using a CPU)
-  * Memory (at least one tier 1.5)
+  * Memory (at least two tier 1)
   * Hard Disk (any tier)
   * EEPROM (Lua BIOS)
 * Second computer for setting up the crafting computer
@@ -136,6 +146,12 @@ Currently the is only version but contributions are always welcome! :smile:
 * **atm3r**: Contains nearly all<sup>1</sup> crafting recipes for [All the Mods 3: Remix](https://www.curseforge.com/minecraft/modpacks/all-the-mods-3-remix) modpack.
 
 <sup>1</sup> It doesn't contain the recipe for *Reactor Stabilizers* and *Chaotic Cores*.
+
+# Troubleshooting
+
+Q: I'm getting `not enough memory` error, what to do?  
+A: Add more memory to your computer.
+
 
 # TODO
 
