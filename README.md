@@ -12,8 +12,8 @@ Set up a **Transposer** with five inventories connected to it and set up some pi
 Now download the program and a fitting config version for your modpack:
 
 ```shell
-wget https://github.com/sedlak477/fusioncrafter/blob/master/fusioncrafter.lua
-wget https://github.com/sedlak477/fusioncrafter/blob/master/<VERSION>-config.lua
+wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/fusioncrafter.lua
+wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/<VERSION>-config.lua
 ```
 
 Rename the downloaded config file to `config.lua`.
@@ -87,7 +87,7 @@ If you are done, reboot into the fresh *OpenOS* installation.
 Now download the latest version of the program with this command:
 
 ```shell
-wget https://github.com/sedlak477/fusioncrafter/blob/master/fusioncrafter.lua
+wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/fusioncrafter.lua
 ```
 
 You'll also need a config file which contains all the crafting recipes and configuration. You can download a preset and change it to your liking:
@@ -95,7 +95,7 @@ You'll also need a config file which contains all the crafting recipes and confi
 > Replace `<VERSION>` with the version you want. You can see all the versions by browsing the files in the repository.
 
 ```shell
-wget https://github.com/sedlak477/fusioncrafter/blob/master/<VERSION>-config.lua
+wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/<VERSION>-config.lua
 ```
 
 Rename the file to `config.lua`:
