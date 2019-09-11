@@ -16,6 +16,8 @@ wget https://github.com/sedlak477/fusioncrafter/blob/master/fusioncrafter.lua
 wget https://github.com/sedlak477/fusioncrafter/blob/master/<VERSION>-config.lua
 ```
 
+Rename the downloaded config file to `config.lua`.
+
 Tweak the inventories which interface with the transposer in the config and start `fusioncrafter.lua`.
 
 > You can add `fusioncrafter.lua` to the autostart so you don't have to start it everytime you reboot.
