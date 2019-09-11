@@ -18,14 +18,14 @@ local recipes = config.recipes
 
 
 -- Greet user with a friendly message
-function printHello()
+local function printHello()
   print("FusionCrafter v1.0 by sedlak477")
   print()
 end
 
 
 -- Retrun amount of item in inventory
-function getItemAmount(id, side)
+local function getItemAmount(id, side)
   -- Look through all items to see if the requested exists
   for stack in transposer.getAllStacks(side) do
     if stack.name == id then
@@ -38,7 +38,7 @@ end
 
 -- Check if recipe is craftable with
 -- current items
-function canCraft(recipe)
+local function canCraft(recipe)
   for id, neededAmount in pairs(recipe.input) do
     local availableAmount = getItemAmount(id, input)
 
@@ -53,7 +53,7 @@ end
 -- Find item slot in inventory
 -- Pass nil for item to find empty slot
 -- Returns nil if no slot is found
-function find(inventory, item)
+local function find(inventory, item)
   for slot = 1, transposer.getInventorySize(inventory), 1 do
     if item == nil then
       if transposer.getSlotStackSize(inventory, slot) == 0 then
@@ -70,7 +70,7 @@ end
 
 
 -- Transfer 'amount' of item 'id' from 'from' to a free slot in 'to'
-function transfer(id, amount, from, to)
+local function transfer(id, amount, from, to)
   -- Get slots with items
   local slotFrom = find(from, id)
   local slotTo = find(to, nil)
@@ -91,7 +91,7 @@ end
 
 
 -- Wait until items are in inventory
-function waitItems(inventory, items)
+local function waitItems(inventory, items)
   while true do
     local itemsExist = true
     for item, amount in pairs(items) do
@@ -114,7 +114,7 @@ end
 
 
 -- Craft provided recipe
-function craft(recipe)
+local function craft(recipe)
 
   -- Tell the user what we are doing
   local resultString = ""
@@ -148,7 +148,7 @@ end
 
 
 -- Check if a valid recipe is in the input
-function checkCrafting()  
+local function checkCrafting()  
 
   -- Check all recipes if one is craftable
   for i, recipe in pairs(recipes) do
@@ -166,7 +166,7 @@ end
 
 
 -- The fun starts here
-function main()
+local function main()
   printHello()
 
   print("Ready! Waiting for craftable recipes")
