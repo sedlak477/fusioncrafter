@@ -55,10 +55,10 @@ You'll need the following things:
 * Computer (any tier)  - This will be the computer managing the crafting
   * CPU or APU (any tier)
   * Graphics Card (any tier, only if you are using a CPU)
-  * Memory (at least two tier 1)
+  * Memory (at least two tier 1.5)
   * Hard Disk (any tier)
   * EEPROM (Lua BIOS)
-* Second computer for setting up the crafting computer
+* Second computer for setting up the crafting computer with a *internet card* and *keyboard*
 * Transposer
 * Screen (any tier)
 * OpenOS Floppy
@@ -157,8 +157,8 @@ fusioncrafter.lua
 Done! Pop the **Hard Disk** into the crafting computer and never worry about it again.
 
 
-# Versions
-Currently there is only one version but more will be added in the future, contributions are welcome as well! :smile:
+# Config versions
+Currently there is only one version available but I will try to add more in the future, contributions are welcome as well! :smile:
 
 * **atm3r**: Contains nearly all<sup>1</sup> crafting recipes for [All the Mods 3: Remix](https://www.curseforge.com/minecraft/modpacks/all-the-mods-3-remix) modpack.
 
