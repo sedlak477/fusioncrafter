@@ -43,7 +43,7 @@ You'll need the following things:
 
 ## Building the system
 
-First make sure your *Infusion Crafting* is set up and working correctly.
+First make sure your *Infusion Crafting* is set up and working correctly. Also make sure you have the upgraded *Crafting Injectors* if you want to craft more advanced recipes.
 
 Before we get started make sure your *Crafting Injectors* are all in **Single Item Mode**. You can change modes by shift right clicking the *Crafting Injectors* with an empty hand.
 
@@ -135,3 +135,17 @@ fusioncrafter.lua
 ```
 
 Done! Pop the **Hard Disk** into the crafting computer and never worry about it again.
+
+# Versions
+Currently the is only version but contributions are always welcome! :smile:
+
+* **atm3r**: Contains nearly all<sup>1</sup> crafting recipes for [All the Mods 3: Remix](https://www.curseforge.com/minecraft/modpacks/all-the-mods-3-remix) modpack.
+
+<sup>1</sup> It doesn't contain the recipe for *Reactor Stabilizers* and *Chaotic Cores*.
+
+# TODO
+
+* Add automated system for upgrading armor and tools.
+* Add support for item metadata. (Fix recipes like *Reactor Stabilizer*)
+* Ore dictionary support.
+* Support same item in *Crafting Injectors* and *Fusion Core* for recipes.
