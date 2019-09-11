@@ -1,6 +1,29 @@
 # FusionCrafter
 FusionCrafter is a [OpenComputers](https://www.curseforge.com/minecraft/mc-mods/opencomputers) program for [Draconic Evolution](https://www.curseforge.com/minecraft/mc-mods/draconic-evolution) Fusion Crafting automation!
 
+
+# Quick start
+
+Set up a **Transposer** with five inventories connected to it and set up some pipes as follows:
+
+* One piping items from one chest into the *Crafting Injectors* (Make sure your injectors are in **Single Item Mode**).
+* One piping items from another chest into the *Fusion Crafting Core*.
+* One piping items from the *Fusion Crafting Core* into another unused chest.
+
+Now download the program and a fitting config version for your modpack:
+
+```shell
+wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/fusioncrafter.lua
+wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/<VERSION>-config.lua config.lua
+```
+
+Tweak the inventories which interface with the transposer in the config and start `fusioncrafter.lua`.
+
+> You can add `fusioncrafter.lua` to the autostart so you don't have to start it everytime you reboot.
+
+Done, Happy crafting!
+
+
 # Requirements
 
 ## Minimum
@@ -23,26 +46,6 @@ FusionCrafter is a [OpenComputers](https://www.curseforge.com/minecraft/mc-mods/
 * Hard Drive (Tier 1)
 * EEPROM (Lua BIOS)
 
-# Quick start
-
-Set up a **Transposer** with five inventories connected to it and set up some pipes as follows:
-
-* One piping items from one chest into the *Crafting Injectors* (Make sure your injectors are in **Single Item Mode**).
-* One piping items from another chest into the *Fusion Crafting Core*.
-* One piping items from the *Fusion Crafting Core* into another unused chest.
-
-Now download the program and a fitting config version for your modpack:
-
-```shell
-wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/fusioncrafter.lua
-wget https://raw.githubusercontent.com/sedlak477/fusioncrafter/master/<VERSION>-config.lua config.lua
-```
-
-Tweak the inventories which interface with the transposer in the config and start `fusioncrafter.lua`.
-
-> You can add `fusioncrafter.lua` to the autostart so you don't have to start it everytime you reboot.
-
-Done, Happy crafting!
 
 # Tutorial
 
@@ -152,17 +155,27 @@ fusioncrafter.lua
 
 Done! Pop the **Hard Disk** into the crafting computer and never worry about it again.
 
+
 # Versions
-Currently the is only version but contributions are always welcome! :smile:
+Currently there is only one version but more will be added in the future, contributions are welcome as well! :smile:
 
 * **atm3r**: Contains nearly all<sup>1</sup> crafting recipes for [All the Mods 3: Remix](https://www.curseforge.com/minecraft/modpacks/all-the-mods-3-remix) modpack.
 
-<sup>1</sup> It doesn't contain the recipe for *Reactor Stabilizers* and *Chaotic Cores*.
+<sup>1</sup> It doesn't contain the recipe for *Reactor Stabilizers*, *Chaotic Cores* and the *Energy Queen*.
+
 
 # Troubleshooting
 
-Q: I'm getting `not enough memory` or `Out of memory` errors, what to do?  
-A: Add more memory to your computer.
+I'm getting `not enough memory` or `Out of memory` errors, what to do?
+* Add more memory to your computer.
+
+I already have the maximum amount of memory in my computer, is this it?
+* You can increase the maximum amount of memory a computer can allocate in the *OpenComputers* configs.
+
+The items aren't correctly inserted into the injectors.
+* Make sure the **Single Item Mode** is **active**.
+* Make sure your pipes don't accidentally connect to other inventories.
+* Make sure your pipes push/pull config is correct and they are active.
 
 
 # TODO
@@ -171,3 +184,4 @@ A: Add more memory to your computer.
 * Add support for item metadata. (Fix recipes like *Reactor Stabilizer*)
 * Ore dictionary support.
 * Support same item in *Crafting Injectors* and *Fusion Core* for recipes.
+* Add support for alternative input items.
