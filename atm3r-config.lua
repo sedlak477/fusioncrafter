@@ -328,7 +328,7 @@ config.recipes = {
     output = { ["forestry:bee_queen_ge"] = 1 },  -- Energy queen
     input = {
       ["rustic:bee"] = 1,
-      ["atmtweaks:item_material"] = 3,
+      ["atmtweaks:item_material"] = 2,
       ["techreborn:part"] = 2,
       ["thermalfoundation:material"] = 2,
       ["nuclearcraft:electromagnet_supercooler_idle"] = 1
