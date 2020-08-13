@@ -181,8 +181,8 @@ The items aren't correctly inserted into the injectors.
 
 # TODO
 
-* Add automated system for upgrading armor and tools.
-* Add support for item metadata. (Fix recipes like *Reactor Stabilizer*)
-* Ore dictionary support.
-* Support same item in *Crafting Injectors* and *Fusion Core* for recipes.
-* Add support for alternative input items.
+- [ ] Add automated system for upgrading armor and tools.
+- [ ] Add support for item metadata. (Fix recipes like *Reactor Stabilizer*)
+- [ ] Ore dictionary support.
+- [x] Support same item in *Crafting Injectors* and *Fusion Core* for recipes.
+- [ ] Add support for alternative input items.
