@@ -78,7 +78,7 @@ config.recipes = {
     input = {
       ["draconicevolution:awakened_core"] = 4,
       ["draconicevolution:chaos_shard"] = 4,
-      ["draconicevolution:draconic_block"] = 6,
+      ["draconicevolution:draconic_block"] = 6
     },
     core = {["draconicevolution:chaos_shard"] = 1}
   },
