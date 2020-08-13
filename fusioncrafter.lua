@@ -74,7 +74,7 @@ local function transfer(id, amount, from, to)
   -- Get slots with items
   local slotFrom = find(from, id)
   local slotTo = find(to, nil)
-  
+
   -- Do some error checking
   if slotFrom == nil then
     print("Error: transfer: No item '" .. id .. "' in source inventory")
@@ -125,15 +125,10 @@ local function craft(recipe)
 
   -- Put input items into their places
   for item, amount in pairs(recipe.input) do
-
-    -- If item is the core item transfer it to the core inventory
-    if item == recipe.core then
-      transfer(item, amount, input, core)
-    else  -- Else put it into the injectors
-      transfer(item, amount, input, injectors)
-    end
-
+    transfer(item, amount, input, injectors)
   end
+
+  transfer(recipe.core, amount, input, core)
 
   -- Wait for output
   waitItems(result, recipe.output)
@@ -148,7 +143,7 @@ end
 
 
 -- Check if a valid recipe is in the input
-local function checkCrafting()  
+local function checkCrafting()
 
   -- Check all recipes if one is craftable
   for i, recipe in pairs(recipes) do
@@ -172,7 +167,7 @@ local function main()
   print("Ready! Waiting for craftable recipes")
   while true do
     checkCrafting()
-  end  
+  end
 end
 
 main()
