@@ -38,7 +38,7 @@ config.inventories = {
 --     <item id> = <item amount>,
 --     ...
 --   },
---   core = <item id>,  -- Item to be put into the fusion crafting core
+--   core = { <item id> = <item amount> },  -- Item to be put into the fusion crafting core
 --   output = {  -- Items that result from the crafting
 --     <item id> = <item amount>,
 --     <item id> = <item amount>,
