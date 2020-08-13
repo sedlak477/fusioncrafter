@@ -74,6 +74,15 @@ config.recipes = {
     core = {["minecraft:nether_star"] = 1}
   },
   {
+    output = { ["draconicevolution:chaotic_core"] = 1 },  -- Chaotic Core
+    input = {
+      ["draconicevolution:awakened_core"] = 4,
+      ["draconicevolution:chaos_shard"] = 4,
+      ["draconicevolution:draconic_block"] = 6,
+    },
+    core = {["draconicevolution:chaos_shard"] = 1}
+  },
+  {
     output = { ["draconicevolution:draconic_energy_core"] = 1 },
     input = {
       ["minecraft:redstone_block"] = 5,
