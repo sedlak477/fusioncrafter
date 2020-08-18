@@ -128,7 +128,10 @@ local function craft(recipe)
     transfer(item, amount, input, injectors)
   end
 
-  transfer(recipe.core, amount, input, core)
+  -- Transfer items to core
+  for item, amount in pairs(recipe.core) do
+    transfer(item, amount, input, core)
+  end
 
   -- Wait for output
   waitItems(result, recipe.output)
