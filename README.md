@@ -1,6 +1,12 @@
 # FusionCrafter
 FusionCrafter is a [OpenComputers](https://www.curseforge.com/minecraft/mc-mods/opencomputers) program for [Draconic Evolution](https://www.curseforge.com/minecraft/mc-mods/draconic-evolution) Fusion Crafting automation!
 
+## Notice
+This project is no longer under development, nor am I intending to fix bugs or give support
+going forward. Feel free to fork the project, I think it would make a great starting point for your own setup. 😄
+
+# Example Setup
+
 ![Example Setup](images/example.png)
 
 # Quick start
